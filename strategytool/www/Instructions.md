@@ -1,8 +1,8 @@
-# Systems Mapping User Guide
+# Strategy Mapping User Guide
 
 ### Introduction
 
-This is a visualisation tool aiming to bring an understanding of the interrelationships between variables in a system. It allows users to investigate how other variables in the system are impacted when changes occur in a particular area. The tool can be useful in communicating across multiple teams working on inter-connected problems. This will help to ensure we design policy to maximise benefits, account for dependencies, mitigate conflicting interests and take account of learning as we go. It will help reduce the risk of unintended consequences, ensuring individual decisions do not end up hindering it or other important objectives.
+This is a visualisation tool aiming to bring an understanding of the interrelationships between actions and goals around a policy or strategy. It allows users to see how actions help or hinder the goals, along with other consequences (intended or otherwise). The tool can be useful in communicating across multiple teams working on inter-connected problems. This will help to ensure we design policy to maximise benefits, account for dependencies, mitigate conflicting interests and take account of learning as we go. It will help reduce the risk of unintended consequences, ensuring individual decisions do not end up hindering it or other important objectives.
 
 The tool aims to help you to:
 
@@ -22,12 +22,12 @@ You should see two tabs at the top of this page:
 
 Within the main tool, you will first need to select a map to view. If you have a map file, click browse and select the map file within the Windows File Explorer box that opens up.
 
-If you don't already have a map file, you can instead click "Show example map". You can [download the example map file here](dummy_system.xlsx) to see how the map files are formatted, and what information needs to be included.
+If you don't already have a map file, you can instead click "Show example map". You can [download the example map file here](dummy_strategy.xlsx) to see how the map files are formatted, and what information needs to be included.
 
-When you first open a map, the view defaults to an overview. Either click on the map, or click the name of the system on the left, below "Overview". Four different viewing tools are shown at the top, of which one the first, "Diagram View", is immediately available. This view allows you to explore the map. The other available views are:
-	- Impacts as a List, which appears when you increase a variable and make a change to the map. This visualizes the changes to the system in a report format.
-	- Feedback Loops, which appears when a change is made to the map that kickstarts a feedback loop. This visualizes the feedback loops resulting from any changes the user has made to the system.
-	- Theories of Change, which appears when you make a variable the ‘target’ by clicking on the target symbol on the right-hand side of a variable. This shows the upstream levers and opportunities to make impact on the ‘target’ variable.
+When you first open a map, the view defaults to an overview. Either click on the map, or click the "Strategy" button on the left, below "Overview". Four different viewing tools are shown at the top, of which one the first, "Diagram View", is immediately available. This view allows you to explore the map. The other available views are:
+- Impacts as a List, which appears when you increase a variable and make a change to the map. This visualizes the changes to the system in a report format.
+- Feedback Loops, which appears when a change is made to the map that kickstarts a feedback loop. This visualizes the feedback loops resulting from any changes the user has made to the system.
+- Theories of Change, which appears when you make a variable the ‘target’ by clicking on the target symbol on the right-hand side of a variable. This shows the upstream levers and opportunities to make impact on the ‘target’ variable.
 
 There are a couple of ways to approach the use of the tool:
 
