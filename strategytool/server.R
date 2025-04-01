@@ -24,8 +24,7 @@ load_app = function(filepath) {
              map_type = "Strategy",
              map_type_plural = "Strategies",
              depth_limit = 5, 
-             show_logo = FALSE,
-             marker_size = 8, text_length = 300, node_font_size = 96, circ_radius = 100)
+             show_logo = FALSE)
 }
 
 shinyServer(function( input, output, session) {
