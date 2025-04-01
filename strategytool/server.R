@@ -7,7 +7,7 @@ load_app = function(filepath) {
                      Section.on.Systems.Map = Source,
                      Variable.Name = Action,
                      Description = Description,
-                     Source.organisation = Source %>% stringr::str_c(Clause %>% as.character() %>% tidyr::replace_na(""), sep = " "),
+                     Source.organisation = Source %>% paste(Clause %>% as.character() %>% tidyr::replace_na(""), sep = " "),
                      Tags = Source,
                      x = x, y = y)
   
