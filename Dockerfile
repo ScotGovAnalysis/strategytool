@@ -22,7 +22,7 @@ RUN apt-get update && apt-get install -y \
 RUN R -e "install.packages(c('shiny'), repos='https://cloud.r-project.org/')"
 
 # install dependencies of the dashboard_app
-RUN R -e "install.packages(c('jsonlite','magrittr','r2d3','readxl','pkgload','markdown'), repos='https://cloud.r-project.org/')"
+RUN R -e "install.packages(c('jsonlite','magrittr','r2d3','readxl','pkgload','markdown','dplyr','tidyr'), repos='https://cloud.r-project.org/')"
 
 COPY NZST.tar.gz .
 
@@ -30,9 +30,9 @@ RUN R -e "install.packages('NZST.tar.gz', repos=NULL, type='source', lib='/usr/l
 
 # copy the app to the image
 RUN mkdir /root/<username>
-RUN mkdir /root/<username>/systemstool
-COPY systemstool /root/<username>/systemstool
+RUN mkdir /root/<username>/strategytool
+COPY strategytool /root/<username>/strategytool
 
 EXPOSE 3937
 
-CMD ["R", "-e", "shiny::runApp('/root/<username>/systemstool',host='0.0.0.0',port=3937)"]
+CMD ["R", "-e", "shiny::runApp('/root/<username>/strategytool',host='0.0.0.0',port=3937)"]
